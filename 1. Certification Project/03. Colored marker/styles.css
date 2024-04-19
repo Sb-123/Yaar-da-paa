@@ -14,16 +14,16 @@ h1{
     margin: 10px auto;
 }
 .red{
-    background-color: linear-gradient( 0deg,rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
-    background-color: red;
+    background: linear-gradient( 0deg,rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    /* background-color: red; */
 }
 .green{
-    background-color: Linear-gradient(0deg,#55680D, #71F53E, #116C31);
-    background-color:green;
+    background: Linear-gradient(0deg,#55680D, #71F53E, #116C31);
+    /* background-color:green; */
 }
 .blue{
-    /* background-color: Linear-gradient(0deg,(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%)); */
-    background-color: blue;
+    background: Linear-gradient(0deg,hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    /* background-color: blue; */
 }
 .cap{
     width: 60px;

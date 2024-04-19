@@ -35,10 +35,10 @@
         <label for="file">Upload a profile picture: </label><br />
         <input type="file" name="profile_picture" id="file" required /><br />
         <label for="age">Input your age(years): </label><br />
-        <input type="date" name="age" id="age" /><br />
+        <input type="number" name="age" id="age" /><br />
         <label for="hear_about">How did you hear about us?</label><br />
         <select name="know" id="hear_about">
-          <option value="select one"></option>
+          <option value="select one">Select one</option>
           <option value="news">FreeCodeCamp News</option>
           <option value="yt_channel">FreeCodeCamp youtube channel</option>
           <option value="forum">FreeCodeCamp forum</option></select
@@ -48,7 +48,8 @@
         ><br />
 
         <input type="checkbox" />
-        <p>I accept the <a href="_blank">terms and conditions</a></p>
+        <label>I accept the <a href="_blank">terms and conditions</a></label
+        ><br />
         <input type="submit" class="submitt" value="submit" />
       </section>
     </form>
