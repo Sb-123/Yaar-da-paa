@@ -13,13 +13,13 @@
 
     <form action="" class="formInfo">
       <section class="firstOne">
-        <label for="FstName">Enter your First Name: </label>
-        <input type="text" name="FirstName" id="FstName" value="1" />
-        <label for="lstName">Enter Your Last Name: </label>
-        <input type="text" name="LastName" id="lstName" />
-        <label for="email">Enter Your Email: </label>
-        <input type="email" name="email" id="email" />
-        <label for="password"></label>
+        <label for="FstName">Enter your First Name: </label><br />
+        <input type="text" name="FirstName" id="FstName" /><br />
+        <label for="lstName">Enter Your Last Name: </label><br />
+        <input type="text" name="LastName" id="lstName" /><br />
+        <label for="email">Enter Your Email: </label><br />
+        <input type="email" name="email" id="email" /><br />
+        <label for="password">Enter your password: </label><br />
         <input type="password" name="password" id="password" />
       </section>
       <hr />
@@ -27,15 +27,29 @@
         <p>Account type:</p>
         <br />
         <input type="radio" name="A/c_type" value="personal" required />Personal
+        <br />
         <input type="radio" name="A/c_type" value="business" required />business
       </section>
       <hr />
       <section class="thirdOne">
-        <label for="file"></label>
-        <input type="file" name="profile_picture" id="file" required />
-        <label for="age">Input your age(years): </label>
-        <input type="date" name="age" id="age" />
-        <label for="hear_about">How did you hear about us?</label>
+        <label for="file">Upload a profile picture: </label><br />
+        <input type="file" name="profile_picture" id="file" required /><br />
+        <label for="age">Input your age(years): </label><br />
+        <input type="date" name="age" id="age" /><br />
+        <label for="hear_about">How did you hear about us?</label><br />
+        <select name="know" id="hear_about">
+          <option value="select one"></option>
+          <option value="news">FreeCodeCamp News</option>
+          <option value="yt_channel">FreeCodeCamp youtube channel</option>
+          <option value="forum">FreeCodeCamp forum</option></select
+        ><br />
+        <label for="bio">Provide a bio: </label><br />
+        <textarea name="provide_bio" id="bio" cols="30" rows="8"></textarea
+        ><br />
+
+        <input type="checkbox" />
+        <p>I accept the <a href="_blank">terms and conditions</a></p>
+        <input type="submit" class="submitt" value="submit" />
       </section>
     </form>
   </body>
