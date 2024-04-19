@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons with Animated Border</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+
+    <form action="" class="formInfo">
+      <section class="firstOne">
+        <label for="FstName">Enter your First Name: </label>
+        <input type="text" name="FirstName" id="FstName" value="1" />
+        <label for="lstName">Enter Your Last Name: </label>
+        <input type="text" name="LastName" id="lstName" />
+        <label for="email">Enter Your Email: </label>
+        <input type="email" name="email" id="email" />
+        <label for="password"></label>
+        <input type="password" name="password" id="password" />
+      </section>
+      <hr />
+      <section class="SecondOne">
+        <p>Account type:</p>
+        <br />
+        <input type="radio" name="A/c_type" value="personal" required />Personal
+        <input type="radio" name="A/c_type" value="business" required />business
+      </section>
+      <hr />
+      <section class="thirdOne">
+        <label for="file"></label>
+        <input type="file" name="profile_picture" id="file" required />
+        <label for="age">Input your age(years): </label>
+        <input type="date" name="age" id="age" />
+        <label for="hear_about">How did you hear about us?</label>
+      </section>
+    </form>
+  </body>
+</html>
