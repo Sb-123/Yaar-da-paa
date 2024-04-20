@@ -1,0 +1,24 @@
+body{
+  font-family: serif;
+  background-color: lightblue;
+  margin: 0;
+
+}
+h1, .descript{
+  text-align: center;
+}
+fieldset{
+  background-color: rgba(2, 24, 31, 0.4);
+  /* align-items: center; */
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5%;
+}
+input{
+  width:inherit;
+  /* display: block; */
+}
+label{
+  display: block;
+  padding-bottom: %;
+}
